@@ -5,31 +5,43 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="files/css/style.css">
 	<script src="https://kit.fontawesome.com/774f0ae2db.js" crossorigin="anonymous"></script>
+	<link rel="shortcut icon" href="files/icons/iconfinder_youtube_317714.ico">
+	<title>Google Homepage project</title>
 
 
 </head>
 	<body>
-		<div id="main-container">
-<nav id="nav-bar-top">
-	<div id="left-side">
-		<i class="fas fa-bars" style="margin-left: 10px;"></i>
-		<img src="files/images/youtube-new-logo.jpeg" alt="youtube-new-logo"/>
-	</div>
-	<div id="search">
-		<input type="text">
-		<button type="submit">search</button>
+		<section>
+			<div class="contianer">
+				<div class="main-container">
+					<nav id="nav-bar-top">
+						<div class="left-side">
+							<a href=""><i class="fas-bars fas fa-bars"></i></a>
+							<a href=""><img src="files/images/youtube-new-logo.jpeg" class="logoyoutube" alt="youtube-new-logo"/></a>
+							
+						</div>
+							<form class="formsearch">
+								<div class="inputsrch">
+									<input class="inputsearch" type="text" name="mysearch" id="mysearch" placeholder="Search">
+									<button class="btn-search" type="submit"><i class="fa fa-search"></i></button>
+								</div>
+							</form>
+							<div class="right-side">
+							<a href=""><i class="fas-video fas fa-video"></i></a>
+							<a href=""><i class="fab-elementor fab fa-elementor"></i></a>
+							<a href=""><i class="fas-bell fas fa-bell"></i></a>
+						</div>
+					</nav>
+				</div>
+				<div class="main-part">
+					<div class="main-partvideo">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/iWOYAxlnaww" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>	
+					</div>
+					<h1 class="title-video">Embed videos and playlists</h1>
+				</div>
+				
+			</div>
 
-	</div>
-	<div id="right-side">
-		<i class="fas fa-plus-square"></i>
-		<i class="fab fa-elementor"></i>
-		<i class="fas fa-bell"></i>
-	</div>
-
-</nav>
-<div id="main-part">
-	<iframe width="560" height="315" src="https://www.youtube.com/embed/iWOYAxlnaww" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
-		</div>
+		</section>
 	</body>
 </html>
