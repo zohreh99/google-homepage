@@ -19,40 +19,47 @@ nav {
 	padding-left: 20px;
 }
 .fas , .fab{
- 	color: black;
+ 	color: #606060;
 }
 .right-side{
- 	padding-left: 90px;
+ 	padding-left: 150px;
 }
 .fas-video{
  	padding-left: 20px;
-
- }
+ 	color: #606060;
+}
 .fab-elementor{
  	padding-left: 20px;
+ 	color: #606060;
 
  }
 .fas-bell{
  	padding-left: 20px;
+ 	color: #606060;
 }
 .formsearch{
- 	padding-left: 215px;
+ 	padding-left: 100px;
 }
 .inputsearch{
- 	width: 650px;
- 	height: 30px;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    margin-left: 4px;
-    max-width: 100%;
+ 	width: 562px;
+ 	height: 28px;
+    
 }
 
 .btn-search{
-    width: 50px;
-    height: 36px;
+    width: 66px;
+    height: 33.9px;
     position: relative;
-    right: 56px;
+    right: 73px;
+    background: #F0F0F0;
+}
+
+::placeholder{
+  	font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    max-width: 100%;
+    text-align: left;
 }
 .main-partvideo{
 	padding-left: 120px;
@@ -60,4 +67,34 @@ nav {
 .title-video{
 	margin-left: 120px;
 	font-size: 20px;
+	color: #000701;
+}
+.undertitle-video{
+	margin-left: 120px;
+	font-size: 15px;
+	color: #a4a4a4;
+}
+.main-part{
+	display: flex;
+}
+.inputqueue{
+	padding-left: 400px;
+}
+.fa-thumbs-up , .fa-thumbs-down{
+	color: #909090;
+}
+.under-video{
+	display: flex;
+}
+.like-dislike{
+    margin-left: 100px;
+}
+.countlike , .countdislike{
+	font-size: 16px;
+	display: inline-block;
+	color: #909090;
+	padding-left: 10px;
+}
+.fa-thumbs-down{
+	padding-left: 100px;
 }
