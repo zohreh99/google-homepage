@@ -61,7 +61,7 @@ nav {
     width: 66px;
     height: 33.9px;
     position: relative;
-    right: 73px;
+    right: 70px;
     background: #F0F0F0;
 }
 
@@ -130,7 +130,7 @@ hr {
 .afterhr ::after{
 	position: absolute;
 	content: "";
-	width: 134px;
+	width: 125px;
 	height: 2px;
 	background-color: black;
 	bottom: 0;
