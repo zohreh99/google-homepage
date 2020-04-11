@@ -35,23 +35,19 @@ nav {
     margin-top: -25px;
 }
 .fabars{
-	/*padding-left: 20px;*/
+	margin-left: 20px;
 }
-.fas , .fab{
- 	color: #606060;
-}
-.right-side{
- 	
- 	margin-top: -18px;
-}
-.fas-video , .fa-th{
- 	padding-left: 20px;
+.fas , .fab , .fas-video , .fa-th , .fas-bell{
  	color: #606060;
 }
 
-.fas-bell{
- 	padding-left: 20px;
- 	color: #606060;
+.iconth{
+    margin-left: 50px;
+    margin-top: -25px;
+}
+.iconbell{
+	margin-left: 90px;
+    margin-top: -45px;
 }
 .formsearch{
  	padding-left: 150px;
@@ -100,12 +96,10 @@ nav {
 .main-part{
 	display: flex;
 }
-.inputqueue{
-	padding-left: 400px;
-}
+
 .icons{
 	color: #909090;
-	padding-left: 20px;
+	/*padding-left: 20px;*/
 }
 
 .title-video{
@@ -125,6 +119,22 @@ nav {
 	font-weight: 500;
 
 }
+.iconthumbs-down{
+	margin-left: 80px;
+    margin-top: -25px
+}
+.iconshare{
+	margin-left: 150px;
+    margin-top: -26px;
+}
+.iconsave{
+	margin-left: 250px;
+    margin-top: -25px;
+}
+.iconellipsis{
+    margin-left: 340px;
+    margin-top: -23px
+}
 a{
 	text-decoration: none;
 }
@@ -133,7 +143,7 @@ a{
 	height: 360px;
 
 }
-hr { 
+.hrleft { 
 	width: 725px;
   	margin-left: 120px;
  
@@ -144,12 +154,12 @@ hr {
 .afterhr ::after{
 	position: absolute;
 	content: "";
-	width: 125px;
+	width: 120px;
 	height: 2px;
 	background-color: black;
 	bottom: 0;
 	display: block;
-	left: 38%;
+	left: 57%;
 }
 .subscribe-flex{
 	display: flex;
@@ -260,12 +270,79 @@ hr {
 
 }
 .part-right{
-	width: 150px;
-	height: 70px; 
+	width: 200px;
+	height: 120px; 
 	display: block;
 	margin-top: 20px;
 }
 .main-part-right{
-	margin-top: 200px;
-	margin-left: 100px;
+	margin-top: 100px;
+	margin-left: 50px;
+}
+.title1-video{
+	font-size: 16px;
+	line-height: 20px;
+	color: #030303;
+	font-weight: 400;
+	font-family: Roboto;
+
+
+}
+.title2-video{
+	font-size: 13px;
+	color: #030303;
+	font-weight: 500;
+	font-family: Roboto;
+	margin-left: 200px;
+}
+.hrright{
+
+}
+.title1-right{
+	font-size: 14px;
+	line-height: 16px;
+	color: #030303;
+	font-weight: 500;
+	font-family: Roboto;
+	margin-top: 145px;
+    margin-left: -120px;
+}
+.under1title1{
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 18px;
+	color: #606060;
+	font-family:Roboto ;
+	margin-left: -120px;
+	display: inline-block;
+	position: relative;
+	top: -20px;
+
+
+}
+.icon-right{
+	margin-left: -2px;
+	position: relative;
+	top: -20px;
+}
+.under2title1{
+	font-size: 13px;
+	font-family: Roboto;
+	font-weight: 400;
+	color: #606060;
+	line-height: 18px;
+	margin-left: -120px;
+	position: relative;
+	top: -45px;
+
+}
+
+.title2-right-video {
+	margin-top: -115px;
+}
+.title3-right-video {
+	margin-top: -127px;
+}
+.title4-right-video , .title5-right-video , .title6-right-video{
+	margin-top: -127px;
 }
