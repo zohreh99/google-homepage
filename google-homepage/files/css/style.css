@@ -5,6 +5,7 @@ body {
 	background: #f9f9f9f9;
 	overflow-x: hidden;
 	width: 100%;
+	margin: 0px;
 
 }
 nav {
@@ -355,4 +356,8 @@ a{
     margin-left: -102px;
     position: relative;
     top: -10px;
+}
+input{
+	outline: none;
+	padding-left: 5px;
 }
